@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none !important;
+}
+.navbar{
+background-color: #fff !important;
+}
+.nav-item .nav-link .phone{
+    font-size: 1.3rem;
+}
+
+h6{
+    font-size: 1.2rem !important;
+}
+
+/* hero section */
+
+.hero-section{
+    padding: 2rem 0;
+    background: url(https://thompsonrestoration.com/wp-content/uploads/2023/01/water-damage-restoration.jpg) no-repeat;
+    background-size: cover;
+}
+.hero-section h1{
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.hero-section i
+{
+    font-size: 25px;
+    color: #e9ba26;
+}
+
+.hero-btn a{
+    background: #f5f5f5;
+    color: #000;
+    font-weight: bold;
+    padding: .4rem 4rem;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    border-radius: 50px;
+    border: 1px solid #f8f9fa;
+    transition: .3s;
+}
+.hero-btn a:hover{
+    background: transparent;
+    border-color: #f8f9fa;
+}
+.hero-btn .get-btn{
+    color: #fff !important;
+    transition: .3s;
+    background-color: #01c9ff;
+
+}
+.hero-btn .get-btn:hover{
+    color: #000 !important;
+    border-color: #01c9ff;
+}
+
+/* section 2 */
+.section-2 {
+    padding: 3rem 0;
+    background-color: #f8f9fa;
+}
+.section-2 p{
+    padding-bottom: 1rem;
+}
+.section-2 h5{
+    font-size: 1.2rem;
+    background-color: #01c9ff;
+    color: #fff;
+    padding: 1rem .5rem;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    transition: .3s; 
+    cursor: pointer; 
+}
+.section-2 h5:hover{
+    background-color: transparent;
+    color: #000;
+    border: 1px solid #01c9ff;
+}
+.section2-content2 {
+    background-color: #f5f5f5;
+    padding: 1rem .8rem;
+}
+/* section 3 */
+
+.section-3{
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+
+}
+.section3-content{
+    background-color: #f8f9fa;
+    padding: 2rem 1rem;
+    border-radius: 15px;
+}
+.section3-content ul li{
+font-size: 1.2rem;
+}
+.section3-content ul li i{
+    color: #01c9ff;
+    font-size: 1.5rem;
+}
+
+/* section 4 */ 
+.section-4{
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    background-color: #f8f9fa;
+  }
+  .section-4 img{
+    border-radius: 15px;
+  }
+/* section 5 */ 
+.section-5{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  .section-5 img{
+  border-radius: 15px;
+  }
+/* footer */
+footer {
+    background: #f8f9fa;
+    color: #000;
+}
+footer .col-md-12 p{
+    color: #000;
+}
+footer a{
+    text-decoration: none;
+    font-weight: 500;
+    margin: 1rem .6rem;
+    color: #709ffc;
+}
+@media screen and (max-width: 1200px){
+ .hero-btn .get-btn{
+    font-size: 1.3rem;
+ }
+}
+
+@media screen and (max-width: 992px){
+    .section-2 h5{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    .hero-section h1{
+        font-size: 1.8rem;
+    }
+   .hero-btn a{
+        font-size: 1.2rem;
+    }
+    .section4-btn a{
+        font-size: 1rem;
+        line-height: 2.4rem;
+    }
+
+}
+@media screen and (max-width: 500px){
+    .hero-btn .get-btn{
+        font-size: 1rem;
+     }
+}
+@media screen and (max-width: 320px){
+    .section4-btn a{
+        font-size: .6rem;
+    }
+}
